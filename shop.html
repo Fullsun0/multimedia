@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.ico" type="image/x-icon" >
+    <script src="assets/src/header.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/hfshop.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/shop.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/star.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/comment.css">
+    <title>Field Vege｜Shop</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="index.html" class="logo">Field Vege</a>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="login.html">MemberShip</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </header>
+    <section class="banner-shop">
+        <h1><a href="shop.html" >SHOP</a></h1>
+    </section> <!--開頭照片，用不到直接刪-->
+
+    <!--shop title-->
+    <section id="shop">
+        <h1>
+            <a href="all.html" >ALL</a>/
+            <a href="fandv.html">FRUIT&VEGE</a>/
+            <a href="special.html">SPECIAL</a>
+        </h1>
+    </section>
+    <hr>
+
+    <!--hotsale-->
+    <section id="hotsale">
+      <h1>HOT SALE</h1>
+    </section>
+    <div id="state">
+      <img src="assets/images/state.png">
+    </div>
+    <div class="state-content">
+      <h1>2nd. 奶油白菜</h1>
+      <h1>1st. 蔬菜組合箱</h1>
+      <h1>3rd. 葡萄</h1>
+    </div>
+
+    <!--廣告圖-->
+    <a id="ad" href="all.html"><img src="assets/images/buynow.png" alt="Leonardo.meme :D"></a>
+    
+    <!--footer-->
+    <section> 
+        <div class="footer-all">
+            <div class="footer-left">
+                <footer>FIELD VEGE <br> GROUP28 <br> Copyright© 2021 CYCUIM</footer>
+            </div>
+            <div class="footer-right">
+                <a href="mailto:we751015@gmail.com"><img src="assets/images/emails.png" class="contacticon"></a>
+                <p>CONTACT US</p>
+            </div>
+        </div>
+    </section>
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <script>
+        $(function(){
+            $('#BackTop').click(function(){ 
+                $('html,body').animate({scrollTop:0}, 5);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300 ){
+                    $('#BackTop').fadeIn(222);
+                } else {
+                    $('#BackTop').stop().fadeOut(222);
+                }
+            }).scroll();
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><script  src="assets/src/star.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script  src="assets/src/choose.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script><script  src="assets/src/comment.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+.why-all{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.why-spword{
+    font-size: 36px;
+}
+.why-pword{
+    margin-top: 20px;
+    line-height: 35px;
+}
+.why-pword > p{
+    font-size: 1.2rem;
+}
+p  > a{
+    font-size: 1.8rem;
+    margin-left: 3px;
+    letter-spacing: 2px;
+}
+.why-around{
+    margin-top: 20px;
+}
+.why-place{
+    margin-top: 20px;
+    letter-spacing: 60px;
+}
+.why-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.thief{
+    margin-top: -20%;
+    width: 100%;
+    height: 110vh;
+    background: url(../images/farm.gif);
+    background-size: cover;
+}
+a:hover{
+    color: #FFF;
+}

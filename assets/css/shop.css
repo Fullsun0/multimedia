@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=East+Sea+Dokdo&display=swap');
+*{
+    font-family: "East Sea Dokdo", cursive;
+    /* outline: 1px solid red; */
+    overflow-x: hidden;
+}
+
+hr{
+    margin: 50px 150px;
+    border: 1.5px solid black;
+    border-radius: 80px;
+}
+
+#shop{
+    display: flex;
+    justify-content: center;
+}
+
+#shop >h1{
+    font-size: 2.5rem;
+    letter-spacing: 10px;
+    margin-top: 50px;
+    border-bottom-color: black;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    text-shadow: rgba(72, 72, 72, 0.37) 4px 3px 0px;
+}
+
+#hotsale{
+    display: flex;
+    justify-content: center;
+}
+
+#hotsale > h1 {
+    font-size: 4rem;
+    letter-spacing: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: rgb(233, 55, 55);
+    text-shadow: rgba(72, 72, 72, 0.37) 4px 3px 0px;
+}
+
+#state{
+    justify-content: center;
+    display: flex;
+}
+
+#state > img{
+    width: 950px;
+}
+
+.state-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.state-content >h1{
+    font-size: 2rem;
+    margin-right: 65px;
+}
+
+#ad{
+    justify-content: center;
+    display: flex;
+}
+
+#ad > img{
+    width: 80%;
+}

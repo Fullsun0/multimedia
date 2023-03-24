@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.ico" type="image/x-icon" >
+    <script src="assets/src/header.js"></script>
+    <script src="assets/src/cart.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/header_footer _cartlogin.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/cart.css">
+    <title>Field Vage | Cart</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="index.html" class="logo">Field Vege</a>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="login.html">MemberShip</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </header>
+    <section class="page">
+        <div class="buyitem">
+        <h1 class="cart-title">購物清單</h1>
+            <table class="buylist" id="list">
+                <tr class="item_header">
+                    <td> </td>
+                    <td>商品名稱</td>
+                    <td class="price">單價</td>
+                    <td class="count">數量</td>
+                    <td class="amount">小計</td>
+                    <td class="operate">操作</td>
+                </tr>
+
+                <tr class="item_body">
+                    <td><img src="assets/images/vegbox.jpeg" alt="" width="150px" height="150px"></td>
+                    <td><span>今天呷菜——蔬菜組合</span></td>
+                    <td class="price">399</td>
+                    <td class="count">
+                        <button  onclick="minus(this)">-</button>
+                        <input type="text" class="product-q" value="1" readonly>
+                        <button  onclick="plus(this)">+</button>
+                    </td>
+                    <td>399</td>
+                    <td class="operate">
+                        <button type="button" class="remove" onclick="rm(this)">REMOVE</button>
+                    </td>
+                </tr>
+
+                <tr class="item_body">
+                    <td><img src="assets/images/fruitbox.jpeg" alt="" width="150px" height="150px"></td>
+                    <td><span>遠離醫生——水果組合</span></td>
+                    <td class="price">480</td>
+                    <td class="count">
+                        <button onclick="minus(this)">-</button>
+                        <input type="text" class="product-q" value="1" readonly>
+                        <button onclick="plus(this)">+</button>
+                    </td>
+                    <td>480</td>
+                    <td class="operate">
+                        <button type="button" class="remove" onclick="rm(this)" >REMOVE</button>
+                    </td>
+                </tr>
+
+                <tr class="item_body">
+                    <td><img src="assets/images/cream.png" alt="" width="150px" height="150px"></td>
+                    <td><span>奶油奶油白菜</span></td>
+                    <td class="price">45</td>
+                    <td class="count">
+                        <button onclick="minus(this)">-</button>
+                        <input type="text" class="product-q" value="1" readonly>
+                        <button onclick="plus(this)">+</button>
+                    </td>
+                    <td>45</td>
+                    <td class="operate">
+                        <button type="button" class="remove" onclick="rm(this)">REMOVE</button>
+                    </td>
+                </tr>
+
+                <tr class="item_bottom">
+                    <td></td>
+                    <td></td>
+                    <td>總計$</td>
+                    <td><span id="total">924</span></td>
+                    <!-- <td><input id="total"  type="text" value="924" readonly></td>  -->
+                    <td>元</td>
+                </tr>
+
+                <tr>
+                    <td class="data-mm"colspan="3">
+                        <div class="member-data">
+                            <div class="buymember">填寫資料</div>
+                            <div>訂購人：<input type="text" id="customer" required placeholder="姓名" value="小綠南瓜"></div>
+                            <div>收件地址：<input type="text" id="address" required placeholder="地址" value="桃園市中壢區新中北路"></div>
+                            <div>連絡電話：<input type="tel" required placeholder="電話" value="0912345678"></div>
+                            <div> 付款方式：<input name="pay" type="radio" checked>貨到付款&emsp;
+                                <input name="pay" type="radio">Line Pay&emsp;
+                                <input name="pay" type="radio">信用卡付款
+                            </div>
+                        </div>
+                    </td>
+                    <td class="data-cc" colspan="3">
+                        <div class="member-data">
+                            <div class="buymember">資料確認</div>
+                            <div>訂購人：<font>小綠南瓜</font></div>
+                            <div>收件地址：<font>桃園市中壢區新中北路</font></div>
+                            <div>連絡電話：<font>0912345678</font></div>
+                            <div> 付款方式：<font>貨到付款</font></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="btn">
+                <a href="shop.html"><button class="btn-con">繼續購物</button></a>
+                <button class="btn-con" id="end">我要結帳</button>
+            </div>
+
+        </div>
+    </section>
+    <section class="banner-cart"></section>
+
+</body>
+</html>
+<script src="assets/src/cart.js"></script>

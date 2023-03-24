@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.ico" type="image/x-icon" >
+    <script src="assets/src/header.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/hfshop.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/all.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/star.css">
+    <title>Field Vege｜All</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="index.html" class="logo">Field Vege</a>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="login.html">MemberShip</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </header>
+    <section class="banner-shop">
+      <h1><a href="shop.html" >SHOP</a></h1>
+    </section> <!--開頭照片，用不到直接刪-->
+    <!--shop title-->
+    <section id="shop">
+        <h1>
+            <a href="all.html" >ALL</a>/
+            <a href="fandv.html">FRUIT&VEGE</a>/
+            <a href="special.html">SPECIAL</a>
+        </h1>
+    </section>
+    <hr>
+    
+    <!--Products Vege-->
+    <section id="items">
+      <!--娃娃菜-->
+      <div class="product-img1">
+        <a href="product.html">
+          <img src="assets/images/Babydishes.PNG" alt="娃娃菜">
+        </a>
+          <div class="content">
+              <h1>沒有娃娃的娃娃菜</h1>
+              <h1>售價:$55/顆</h1>
+
+              <!--數量選擇-->
+              <form id='myform' method='POST' action='#'>
+                  <input type='button' value='-' class='qtyminus' field='quantity' />
+                  <input type='text' name='quantity' value='0' class='qty' />
+                  <input type='button' value='+' class='qtyplus' field='quantity' />
+              </form>
+              
+              <button><h1>加入購物車</h1></button>
+
+              <!--stars-->
+              <form class="rating">
+                  <label>
+                    <input type="radio" name="stars" value="1" />
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="2" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="3" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>   
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="4" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="5" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                </form>
+          </div>
+      </div>
+      
+      <!--奶油白菜-->
+      <div class="product-img">
+        <a href="product.html">
+          <img src="assets/images/cream.png" alt="奶油白菜">
+        </a>
+          <div class="content">
+              <h1>奶油奶油白菜</h1>
+              <h1>售價: $45/顆</h1>
+              
+              <!--數量選擇-->
+              <form id='myform' method='POST' action='#'>
+                  <input type='button' value='-' class='qtyminus' field='quantity' />
+                  <input type='text' name='quantity' value='0' class='qty' />
+                  <input type='button' value='+' class='qtyplus' field='quantity' />
+              </form>
+              
+              <button><h1>加入購物車</h1></button>
+
+              <!--stars-->
+              <form class="rating">
+                  <label>
+                    <input type="radio" name="stars" value="1" />
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="2" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="3" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>   
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="4" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="5" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                </form>
+          </div>
+      </div>
+
+      <!--花椰菜-->
+      <div class="product-img">
+        <a href="product.html">
+          <img src="assets/images/broccoli.jpeg" alt="花椰菜">
+        </a>
+          <div class="content">
+              <h1>是花椰菜不是櫸樹</h1>
+              <h1>售價: $49/顆</h1>
+
+              <!--數量選擇-->
+              <form id='myform' method='POST' action='#'>
+                  <input type='button' value='-' class='qtyminus' field='quantity' />
+                  <input type='text' name='quantity' value='0' class='qty' />
+                  <input type='button' value='+' class='qtyplus' field='quantity' />
+              </form>
+              
+              <button><h1>加入購物車</h1></button>
+
+              <!--stars-->
+              <form class="rating">
+                  <label>
+                    <input type="radio" name="stars" value="1" />
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="2" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="3" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>   
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="4" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="5" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                </form>
+          </div>
+      </div>
+  </section>
+
+  <!--Products Fruit-->
+  <section id="items">
+      <!--蘋果-->
+      <div class="product-img">
+        <a href="product.html">
+          <img src="assets/images/apple.jpeg" alt="蘋果">
+        </a>
+          <div class="content">
+              <h1>日本富士蜜蘋果</h1>
+              <h1>售價: $50/顆</h1>
+
+              <!--數量選擇-->
+              <form id='myform' method='POST' action='#'>
+                  <input type='button' value='-' class='qtyminus' field='quantity' />
+                  <input type='text' name='quantity' value='0' class='qty' />
+                  <input type='button' value='+' class='qtyplus' field='quantity' />
+              </form>
+              
+              <button><h1>加入購物車</h1></button>
+
+              <!--stars-->
+              <form class="rating">
+                  <label>
+                    <input type="radio" name="stars" value="1" />
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="2" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="3" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>   
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="4" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="5" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                </form>
+          </div>
+      </div>
+      
+      <!--芭樂-->
+      <div class="product-img">
+        <a href="product.html">
+          <img src="assets/images/guava.jpeg" alt="芭樂">
+        </a>
+          <div class="content">
+              <h1>我都唸芭樂</h1>
+              <h1>售價: $95/500g</h1>
+
+              <!--數量選擇-->
+              <form id='myform' method='POST' action='#'>
+                  <input type='button' value='-' class='qtyminus' field='quantity' />
+                  <input type='text' name='quantity' value='0' class='qty' />
+                  <input type='button' value='+' class='qtyplus' field='quantity' />
+              </form>
+              
+              <button><h1>加入購物車</h1></button>
+
+              <!--stars-->
+              <form class="rating">
+                  <label>
+                    <input type="radio" name="stars" value="1" />
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="2" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="3" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>   
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="4" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="5" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                </form>
+          </div>
+      </div>
+      
+      <!--葡萄-->
+      <div class="product-img">
+        <a href="product.html">
+          <img src="assets/images/grape.jpeg" alt="葡萄">
+        </a>
+          <div class="content">
+              <h1>吃葡萄不吐葡萄皮</h1>
+              <h1>售價: $935/盒(2.5kg)</h1>
+
+              <!--數量選擇-->
+              <form id='myform' method='POST' action='#'>
+                  <input type='button' value='-' class='qtyminus' field='quantity' />
+                  <input type='text' name='quantity' value='0' class='qty' />
+                  <input type='button' value='+' class='qtyplus' field='quantity' />
+              </form>
+              
+              <button><h1>加入購物車</h1></button>
+
+              <!--stars-->
+              <form class="rating">
+                  <label>
+                    <input type="radio" name="stars" value="1" />
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="2" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="3" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>   
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="4" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                  <label>
+                    <input type="radio" name="stars" value="5" />
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                    <span class="icon">★</span>
+                  </label>
+                </form>
+          </div>
+      </div>
+  </section>
+
+    <!--Products Special-->
+    <section id="items">
+        <!--蔬菜-->
+        <div class="product-img">
+            <a href="product.html"><img src="assets/images/vegbox.jpeg" alt="蔬菜組合"></a>
+            <div class="content">
+                <h1>今天呷菜——蔬菜組合</h1>
+                <h1>售價: $399/盒</h1>
+
+                <!--數量選擇-->
+                <form id='myform' method='POST' action='#'>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='text' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+                
+                <button><h1>加入購物車</h1></button>
+
+                <!--stars-->
+                <form class="rating">
+                    <label>
+                      <input type="radio" name="stars" value="1" />
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="2" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="3" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>   
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="4" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="5" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                  </form>
+            </div>
+        </div>
+        
+        <!--水果-->
+        <div class="product-img">
+            <a href="product.html"><img src="assets/images/fruitbox.jpeg" alt="水果組合"></a>
+            <div class="content">
+                <h1>遠離醫生——水果組合</h1>
+                <h1>售價: $480/盒</h1>
+
+                <!--數量選擇-->
+                <form id='myform' method='POST' action='#'>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='text' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+                
+                <button><h1>加入購物車</h1></button>
+
+                <!--stars-->
+                <form class="rating">
+                    <label>
+                      <input type="radio" name="stars" value="1" />
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="2" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="3" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>   
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="4" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="5" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                  </form>
+            </div>
+        </div>
+
+        <!--蔬果-->
+        <div class="product-img">
+            <a href="product.html"><img src="assets/images/vandf.jpeg" alt="蔬果組合"></a>
+            <div class="content">
+                <h1>100%營養——蔬菜加水果</h1>
+                <h1>售價: $699/盒</h1>
+
+                <!--數量選擇-->
+                <form id='myform' method='POST' action='#'>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='text' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+                
+                <button><h1>加入購物車</h1></button>
+
+                <!--stars-->
+                <form class="rating">
+                    <label>
+                      <input type="radio" name="stars" value="1" />
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="2" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="3" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>   
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="4" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="stars" value="5" />
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                      <span class="icon">★</span>
+                    </label>
+                  </form>
+            </div>
+        </div>
+    </section>
+    
+    <!--footer-->
+    <section> 
+        <div class="footer-all">
+            <div class="footer-left">
+                <footer>FIELD VEGE <br> GROUP28 <br> Copyright© 2021 CYCUIM</footer>
+            </div>
+            <div class="footer-right">
+                <a href="mailto:we751015@gmail.com"><img src="assets/images/emails.png" class="contacticon"></a>
+                <p>CONTACT US</p>
+            </div>
+        </div>
+    </section>
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <script>
+        $(function(){
+            $('#BackTop').click(function(){ 
+                $('html,body').animate({scrollTop:0}, 5);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300 ){
+                    $('#BackTop').fadeIn(222);
+                } else {
+                    $('#BackTop').stop().fadeOut(222);
+                }
+            }).scroll();
+        });
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="assets/src/star.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script><script  src="assets/src/choose.js"></script>
+</body>
+</html>

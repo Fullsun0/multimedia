@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=East+Sea+Dokdo&display=swap');
+*{
+    font-family: "East Sea Dokdo", cursive;
+    /* outline: 1px solid red; */
+    overflow-x: hidden;
+}
+
+hr{
+    margin: 50px 150px;
+    border: 1.5px solid black;
+    border-radius: 80px;
+}
+
+#shop{
+    display: flex;
+    justify-content: center;
+}
+
+#shop >h1{
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin-top: 50px;
+    border-bottom-color: black;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    text-shadow: rgba(72, 72, 72, 0.37) 4px 3px 0px;
+}
+
+/*products*/
+#items{
+    display: flex;
+    justify-content:center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.product-img{
+    width: 300px;
+    margin:30px 50px;
+    background-color: white;
+    height: 510px;
+    border-radius: 20px;
+    border: 1px solid rgb(64, 85, 64);
+}
+
+.product-img >a > img{
+    width:100%;
+    border-bottom: 1px solid rgb(64, 85, 64);
+}
+
+.content{
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.content >h1{
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#myform{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.qty {  /*choose*/
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid rgb(64, 85, 64);
+}
+  
+input.qtyplus {
+    width: 25px;
+    height: 35px;
+    border: 1px solid rgb(64, 85, 64);
+    background: white;
+}
+  
+input.qtyminus {
+    width: 25px;
+    height: 35px;
+    border: 1px solid rgb(64, 85, 64);
+    background: white;
+}
+
+button{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 12px;
+    background-color: #d5cabb;
+    border-radius: 50px;
+}
+
+button> h1{
+    text-align: center;
+    margin: 3px;
+    font-size: 15px;
+}
+
+.product-img1{
+    width: 300px;
+    margin:30px 50px;
+    background-color: white;
+    height: 510px;
+    border-radius: 20px;
+    border: 1px solid rgb(64, 85, 64);
+}
+
+.product-img1 >a > img{
+    width:313px;
+    border-bottom: 1px solid rgb(64, 85, 64);
+}

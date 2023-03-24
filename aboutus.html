@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/src/header.js"></script>
+    <link rel="icon" href="assets/images/logo.ico" type="image/x-icon" >
+    <link rel="stylesheet" type="text/css" href="assets/css/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/aboutus.css">
+    <title>Abous us｜一畝田</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="index.html" class="logo">Field Vege</a>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="login.html">MemberShip</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </header>
+    <div>
+        <section class="intro">
+            <span class="intro-word">About us</span>
+        </section> 
+    </div>
+    <section>
+        <div class="title">
+            <span>About us</span>
+        </div>
+        <div class="content">
+            <p>大家好，我們是來自中原大學資管系的學生。<br>
+            此次的專案主題為蔬果，是為了響應「世界地球日」，同時也為向大眾介紹及推廣台灣在地小農產品</p>
+        </div>
+        <div class="boxall">
+            <div class="box">
+                <img src="assets/images/earthday.png">
+                <div class="box-hover-text">
+                    <p class="box-body">世界地球日為4/22，其目的是使用不同的方式宣傳和實踐環境保護的觀念。
+                    而在台灣，有「一日蔬食環保餐」，利用低碳飲食來愛護地球也維護自己的健康。
+                    低碳飲食為「在食物的整個生命週期中，排放最少量的溫室氣體」
+                    經計算，若全國民眾都能響應「一日蔬食環保餐」，一天即可減少近四千塞百萬公斤碳排放，相當於減少4,866輛1,600cc的汽車行駛地球一圈的碳排放！</p>
+                    <p class="box-link">選取幾家在地小農作介紹：</p>
+                    <p class="box-link"><a href="https://www.homiya.co/">好米芽</a>、
+                        <a href="https://www.greeninhand.com/">掌生穀粒</a>、
+                        <a href="https://www.pickup.com.tw/">鮮拾</a>、
+                        <a href="https://www.superbuy.com.tw/">SuperBuy市集</a>、
+                        <a href="https://www.green-n-safe.com/">GREEN&SAFE</a>、
+                        <a href="https://greenbox.tw/">無毒農</a>、
+                        <a href="https://farmlady.myorganic.org.tw/">園外夫人</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="title">
+            <span>Group Member</span>
+        </div>
+        <div class="member-outside">
+            <ul>
+                <li class="member-inside">
+                    <a href="https://www.instagram.com/hsieh_0605/"><img src="assets/images/onehsieh.jpg"></a>
+                    <p>資管二甲 謝佩芸</p>
+                </li>
+                <li class="member-inside">
+                    <a href="https://www.instagram.com/_nini1015/"><img src="assets/images/oneli.jpg"></a>
+                    <p>資管二甲 李玟霓</p>
+                </li>
+                <li class="member-inside">
+                    <a href="https://www.instagram.com/xiiiching/"><img src="assets/images/onehuang.jpg"></a>
+                    <p>資管二甲 黃筱晴</p>
+                </li>
+                <li class="member-inside">
+                    <a href="https://www.instagram.com/jozpel/"><img src="assets/images/twohuang.png"></a>
+                    <p>資管二乙 黃肇誼</p>
+                </li>
+                <li class="member-inside">
+                    <a href="https://www.instagram.com/d910624/"><img src="assets/images/mouse.png"></a>
+                    <p>資管二乙 唐鈺舜</p>
+                </li>
+                <li class="member-inside">
+                    <img src="assets/images/gua.png">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section> 
+        <div class="footer-left">
+            <footer>FIELD VEGE <br> GROUP28 <br> Copyright© 2021 CYCUIM</footer>
+        </div>
+        <div class="footer-right">
+            <a href="mailto:we751015@gmail.com"><img src="assets/images/emails.png" class="contacticon"></a>
+            <p>CONTACT US</p>
+        </div>
+    </section>
+
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <script>
+        $(function(){
+            $('#BackTop').click(function(){ 
+                $('html,body').animate({scrollTop:0}, 5);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300 ){
+                    $('#BackTop').fadeIn(222);
+                } else {
+                    $('#BackTop').stop().fadeOut(222);
+                }
+            }).scroll();
+        });
+    </script>
+</body>
+</html>
+
+
+
+
